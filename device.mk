@@ -48,6 +48,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AntHalService
 
+#  Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.realme_sdm665
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     vendor.oppo.hardware.biometrics.fingerprint@2.1 \
