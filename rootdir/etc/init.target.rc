@@ -36,6 +36,9 @@ on boot
     chown system system /dev/goodix_fp
     chown system system /dev/esfp0
 
+    # OTG
+    write /sys/class/power_supply/usb/otg_switch 1
+
 service oppo_fingerprints_sh /vendor/bin/sh /vendor/bin/init.oppo.fingerprints.sh
     class main
     user root

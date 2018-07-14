@@ -19,3 +19,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320 \
     ro.boot.avb_version=1.0 \
     ro.boot.vbmeta.avb_version=1.0
+
+# OTG
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.oem.otg_support=true
