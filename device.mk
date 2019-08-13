@@ -49,6 +49,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AntHalService
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    BluetoothResCommon
+
 #  Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.realme_sdm665

@@ -3,6 +3,7 @@ on post-fs
     mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio_policy_configuration.xml bind
     mount none /system/lib64/hw/power.qcom.so /vendor/lib64/hw/power.qcom.so bind
     mount none /system/lib/hw/power.qcom.so /vendor/lib/hw/power.qcom.so bind
+    mount none /system/overlay/BluetoothResCommon.apk /vendor/overlay/BluetoothResCommon.apk bind
 
     mkdir /data/gf_data 0700 system system
     mkdir /data/system/gf_data 0700 system system
