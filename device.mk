@@ -68,6 +68,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
++# Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
+
 # Power
 PRODUCT_PACKAGES += \
     power.qcom
