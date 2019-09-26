@@ -48,6 +48,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AntHalService
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    vendor.oppo.hardware.biometrics.fingerprint@2.1 \
+    android.hardware.biometrics.fingerprint@2.1-service.realme_sdm665
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
@@ -68,7 +73,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
-+# Permissions
+# Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
 
