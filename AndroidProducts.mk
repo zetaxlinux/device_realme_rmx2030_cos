@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_RMX1911.mk
+    $(LOCAL_DIR)/aosip.mk
 
-COMMON_LUNCH_CHOICES := \
-    arrow_RMX1911-userdebug \
-    arrow_RMX1911-eng
+# COMMON_LUNCH_CHOICES := \
+#     arrow_RMX1911-userdebug \
+#     arrow_RMX1911-eng
