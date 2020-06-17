@@ -12,22 +12,22 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/realme/RMX1911/device.mk)
+$(call inherit-product, device/realme/RMX2030/device.mk)
 $(call inherit-product, vendor/aosip/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := realme
-PRODUCT_DEVICE := RMX1911
+PRODUCT_DEVICE := RMX2030
 PRODUCT_MANUFACTURER := realme
-PRODUCT_MODEL := Realme 5
-PRODUCT_NAME := aosip_RMX1911
+PRODUCT_MODEL := Realme 5i
+PRODUCT_NAME := aosip_RMX2030
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=RMX1911 \
-    PRODUCT_NAME=RMX1911 \
+    TARGET_DEVICE=RMX2030 \
+    PRODUCT_NAME=RMX2030 \
     PRIVATE_BUILD_DESC="trinket-user 9 PKQ1.190616.001 eng.root.20191014.042413 release-keys"
 
-BUILD_FINGERPRINT := "realme/RMX1911/RMX1911:9/PKQ1.190616.001/1570506858:user/release-keys"
+BUILD_FINGERPRINT := "realme/RMX2030/RMX2030:9/PKQ1.190616.001/1570506858:user/release-keys"

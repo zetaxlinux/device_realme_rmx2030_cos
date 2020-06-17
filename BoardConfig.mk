@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := realme
 
-DEVICE_PATH := device/realme/RMX1911
+DEVICE_PATH := device/realme/RMX2030
 
 TARGET_USE_SDCLANG := true
 
@@ -55,7 +55,7 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := 9.0.6
 TARGET_KERNEL_CONFIG := vendor/trinket-perf_defconfig
-TARGET_KERNEL_SOURCE := kernel/realme/RMX1911
+TARGET_KERNEL_SOURCE := kernel/realme/RMX2030
 endif
 
 BOARD_ROOT_EXTRA_SYMLINKS := \
@@ -142,4 +142,4 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
 # PLATFORM_VERSION := 16.1.0
 
 # Inherit from the proprietary version
--include vendor/realme/RMX1911/BoardConfigVendor.mk
+-include vendor/realme/RMX2030/BoardConfigVendor.mk
