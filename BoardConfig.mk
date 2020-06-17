@@ -51,12 +51,6 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 9.0.6
-TARGET_KERNEL_CONFIG := vendor/trinket-perf_defconfig
-TARGET_KERNEL_SOURCE := kernel/realme/RMX2030
-endif
 
 BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/firmware_mnt:/firmware
